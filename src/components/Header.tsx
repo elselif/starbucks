@@ -3,8 +3,8 @@ import React from 'react'
 function Header() {
     return (
         <>
-            <header>
-                <nav className="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
+            <header className='mix-blend-multiply  sticky top-0 absolute 	'>
+                <nav className="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between bg-white">
                     <div className="px-6 w-full flex flex-wrap items-center justify-between">
                         <div className="flex items-center">
                             <button
@@ -53,11 +53,6 @@ function Header() {
                         </div>
                     </div>
                 </nav>
-
-
-
-
-
             </header></>
     )
 }
