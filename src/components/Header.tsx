@@ -34,20 +34,20 @@ function Header() {
                         </div>
                         <div className="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
                             <ul className="navbar-nav mr-auto lg:flex lg:flex-row">
-                                <li className='nav-item py-1 lg:px-2'>
-                                    <img src="../../images/Starbucks_Corporation.png" width="70px" alt="" />
+                                <li className='nav-item py-2 lg:px-6'>
+                                    <img src="../../images/Starbucks_Corporation.png" width="49px" alt="" />
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link block pr-2 lg:px-2 lg:py-5 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">STARBUCKS REWARD</a>
+                                    <a className="nav-link block pr-2 lg:px lg:py-6 py-2 font-Helvetica font-medium text-black hover:text-black tracking-widest text-sm focus:text-gray-700 transition duration-150 ease-in-out antialiased" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">STARBUCKS REWARD</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link block pr-2 lg:px-2 lg:py-5 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">MENU</a>
+                                    <a className="nav-link block pr-2 lg:px-2 lg:py-6 py-2 font-Helvetica font-medium text-black hover:text-black tracking-widest text-sm focus:text-gray-700 transition duration-150 ease-in-out antialiased" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">MENÜ</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link block pr-2 lg:px-2  lg:py-5 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">KAMPANYALAR</a>
+                                    <a className="nav-link block pr-2 lg:px-2  lg:py-6 py-2 font-Helvetica font-medium text-black hover:text-black tracking-widest text-sm focus:text-gray-700 transition duration-150 ease-in-out antialiased" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">KAMPANYALAR</a>
                                 </li>
                                 <li className="nav-item mb-2 lg:mb-0">
-                                    <a className="nav-link block pr-2 lg:px-2 lg:py-5 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">KURUMSAL SATIŞ</a>
+                                    <a className="nav-link block pr-2 lg:px-2 lg:py-6 py-2 font-Helvetica font-medium text-black hover:text-black tracking-widest  text-sm focus:text-gray-700 transition duration-150 ease-in-out antialiased" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">KURUMSAL SATIŞ</a>
                                 </li>
                             </ul>
                         </div>
