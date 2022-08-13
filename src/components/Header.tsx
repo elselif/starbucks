@@ -8,8 +8,8 @@ function Header() {
                     <div className="px-6 w-full flex flex-wrap items-center justify-between">
                         <div className="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
                             <ul className="navbar-nav mr-auto lg:flex lg:flex-row">
-                                <li className='nav-item lg:px-6'>
-                                    <img className='py-3' src="../../images/Starbucks_Corporation.png" width="49px" alt="" />
+                                <li className='nav-item lg:px-4'>
+                                    <img className='py-3' src="../../images/logo.png" width="70px" alt="" />
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link block pr-2 lg:px lg:py-7 py-2 font-Helvetica font-medium text-black hover:text-black tracking-widest text-sm focus:text-gray-700 transition duration-150 ease-in-out antialiased" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">STARBUCKS REWARD</a>
