@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <>
-            <header className='sticy top-0'>
+            <header className='sticky top-0'>
                 <nav className="navbar navbar-expand-lg shadow-md py-1 bg-white relative flex items-center w-full justify-between">
                     <div className="px-6 w-full flex flex-wrap items-center justify-between">
                         <div className="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
