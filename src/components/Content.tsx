@@ -3,6 +3,7 @@ import AddCard from './Card/AddCard'
 
 
 function Content() {
+     
     return (
         <>
             <div className="ml-96">
@@ -21,6 +22,10 @@ function Content() {
                         title='' 
                         description='Starbucks® Delivers ile siparişini ver, sen neredeysen kahven oraya gelsin!' 
                         buttonText='Yemek Sepeti' 
+
+                        buttonText2='Getir Yemek'
+
+
                         image={"https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzY4MjQ5M2M4NTNlNDhmMmJhZTJjNTMzMjVlOGE3NTQiLCJ0aW1lc3RhbXAiOjE2NjA1OTY3ODM4OTIsImNsYWltcyI6e30sImlhdCI6MTY2MDU5Njc4MywiZXhwIjoxNjYwNTk3MDgzLCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.iuIdH-SsAzDFLuKFeC6ga0PJLc7kC33AQk2WMtRt9xc&data=eyJpbWFnZUlkIjoiNWJjNjQ5YzktMGFlNS00ZWU4LWI2M2YtNTU0YWU0M2VjNzFkIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"}/>
                     <AddCard 
                         title='' 

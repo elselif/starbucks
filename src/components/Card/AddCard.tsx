@@ -6,9 +6,11 @@ interface Props {
     description: string,
     image : string,
     buttonText: string,
+    buttonText2?: string,
+
 }
 
-const AddCard : React.FC<Props>= ({image,title,description,buttonText}) => {
+const AddCard : React.FC<Props>= ({image,title,description,buttonText,buttonText2}) => {
     return (
         <>
             <div className='p-10 inline-flex'>
@@ -17,7 +19,13 @@ const AddCard : React.FC<Props>= ({image,title,description,buttonText}) => {
                     {title}
                     
                     <p className='text-base font-light mt-6'>{description}</p>
-                    <button type="button" className="mt-4 text-white bg-green-700 hover:text-white border  hover:bg-green-100 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">{buttonText}</button>
+                    <button type="button" className="mt-4 text-white bg-green-700  focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">{buttonText}</button>
+                    {buttonText2 ? (<button type="button" className="mt-4 text-green-700	 bg-white-100   border-emerald-600 border-2	 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">{buttonText2}</button>) 
+                    
+                    : null
+                
+                }
+                    
 
                 </div>
             </div>
