@@ -1,4 +1,5 @@
 import React from 'react'
+import GreenButton from '../Buttons/GreenButton'
 
 function LargeCard() {
     return (
@@ -11,11 +12,7 @@ function LargeCard() {
                     <p className='text-left font-normal p-10 '>
                         Kahveye bizdeyiz! ☕. Mağazalarımızda oturumun yanında “Gel-Al”, “Paket Servis” ve “CarHop” hizmetlerimiz ile yanında olmaya devam ediyoruz. ☺️💚
                         <br />
-                        <button
-                            type="button"
-                            className="text-white bg-green-700 hover:text-white border border-black hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm mt-3 px-5 py-1.5 text-center mr-2 mb-0 ">
-                            Detaylı Bilgi
-                        </button>
+                        <GreenButton title='Detaylı Bilgi' />
                     </p>
 
                 </div>

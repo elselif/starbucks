@@ -1,5 +1,6 @@
 import React from 'react'
 import BlackButton from '../components/Buttons/BlackButton'
+import WhiteButton from '../components/Buttons/WhiteButton'
 
 function Header() {
     return (
@@ -35,10 +36,10 @@ function Header() {
                                     <a className="nav-link block pr-3  lg:py-7 py-2 font-sans font-bold text-black hover:text-black text-sm focus:text-black transition duration-150 ease-in-out antialiased" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Mağazalarımız</a>
                                 </li>
                                 <li className="nav-item py-5 pl-2">
-                                    <button type="button" className="text-black border border-black  hover:text-black hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">Gelen Kutusu</button>
+                                    <WhiteButton title='Gelen kutusu' color='black' />
                                 </li>
                                 <li className="nav-item py-5 pl-10" >
-                                    <button type="button" className="text-black  border border-black hover:text-black hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">Giriş</button>
+                                    <WhiteButton title="Giriş" color='black' />
                                 </li>
                                 <li className="nav-item py-5">
                                     <BlackButton title='Hemen Katıl' />

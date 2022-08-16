@@ -1,6 +1,7 @@
 import { title } from 'process'
 import React from 'react'
-
+import GreenButton from '../Buttons/GreenButton'
+import WhiteButton from '../Buttons/WhiteButton'
 interface Props {
     title: string,
     description: string,
@@ -18,17 +19,10 @@ const AddCard: React.FC<Props> = ({ image, title, description, buttonText, butto
                 <div className='text-left text-2xl font-semibold  pl-5'>
                     {title}
                     <p className='text-base font-light mt-6'>{description}</p>
-                    <button
-                        type="button"
-                        className="text-white bg-green-700 hover:text-white border border-black hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm mt-3 px-5 py-1.5 text-center mr-2 mb-0 ">
-                        {buttonText}
-                    </button>
+                    <GreenButton title={buttonText}></GreenButton>
+
                     {buttonText2 ?
-                        (<button
-                            type="button"
-                            className="text-green-700 bg-green hover:text-green-700 border border-black hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">
-                            {buttonText2}
-                        </button>)
+                        (<WhiteButton title={buttonText2}></WhiteButton>)
                         : null
                     }
                 </div>
