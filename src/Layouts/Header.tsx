@@ -1,4 +1,5 @@
 import React from 'react'
+import BlackButton from '../components/Buttons/BlackButton'
 
 function Header() {
     return (
@@ -40,7 +41,7 @@ function Header() {
                                     <button type="button" className="text-black  border border-black hover:text-black hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">Giriş</button>
                                 </li>
                                 <li className="nav-item py-5">
-                                    <button type="button" className="text-white bg-black hover:text-white border border-black hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-1.5 text-center mr-2 mb-0 ">Hemen Katıl</button>
+                                    <BlackButton title='Hemen Katıl' />
                                 </li>
                             </ul>
                         </div>

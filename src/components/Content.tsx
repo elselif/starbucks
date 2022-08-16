@@ -1,6 +1,6 @@
 import React from 'react'
-import AddCard from './Card/AddCard'
-import LargeCard from './Card/LargeCard'
+import AddCard from './Cards/AddCard'
+import LargeCard from './Cards/LargeCard'
 
 
 function Content() {
