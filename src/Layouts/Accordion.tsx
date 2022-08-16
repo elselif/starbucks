@@ -61,7 +61,7 @@ export default function Example() {
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 4} icon={<Icon id={1} open={open} />} onClick={() => handleOpen(4)}>
-            <AccordionHeader className="px-10 py-16 text-2xl font-normal">Kahve</AccordionHeader>
+            <AccordionHeader className="px-10 py-16 text-2xl font-normal">Starbucks Delivers</AccordionHeader>
             <AccordionBody className="pl-12 text-sm font-bold w-[100%] h-[100%] text-left text-gray-500"  >
               <a href="" className="flex">Yemek Sepeti</a> <br /><hr />
               <a href="" className="flex mt-7">Getir</a> <br /><hr />
