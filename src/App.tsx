@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Content from './components/Content';
+import Content from './Pages/Content';
 import Header from './Layouts/Header';
 import Sticky from './Layouts/Sticky';
 function App() {
