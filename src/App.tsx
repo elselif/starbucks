@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Content from './components/Content';
-import Header from './components/Header';
-import Sticky from './components/Sticky';
+import Header from './Layouts/Header';
+import Sticky from './Layouts/Sticky';
 function App() {
   return (
     <div className="App">
