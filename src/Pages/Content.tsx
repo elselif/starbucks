@@ -1,7 +1,8 @@
 import React from 'react'
 import AddCard from '../components/Cards/AddCard'
 import LargeCard from '../components/Cards/LargeCard'
-import Footer from '../Layouts/Accordion'
+import Accordion from '../Layouts/Accordion'
+import Footer from '../Layouts/Footer'
 
 
 function Content() {
@@ -49,6 +50,9 @@ function Content() {
                     <LargeCard />
                     <div className='p-10'>
                         <hr />
+                    </div>
+                    <Accordion />
+                    <div className='mx-10 bg-white border-b-2 border-gray-300'>
                     </div>
                     <Footer />
                 </div>
