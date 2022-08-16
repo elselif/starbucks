@@ -13,8 +13,8 @@ interface Props {
 const AddCard: React.FC<Props> = ({ image, title, description, buttonText, buttonText2 }) => {
     return (
         <>
-            <div className='p-10 inline-flex'>
-                <img src={image} className="w-[390px] h-[350px]" />
+            <div className='px-10 py-8 inline-flex'>
+                <img src={image} className="w-[390px] h-[340px]" />
                 <div className='text-left text-2xl font-semibold  pl-5'>
                     {title}
                     <p className='text-base font-light mt-6'>{description}</p>
